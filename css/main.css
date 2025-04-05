@@ -1,0 +1,9 @@
+/* Make the default color for the heart icon */
+.wishlist-btn svg {
+    fill: silver;  /* This will make it inherit the text color, which is usually black */
+}
+
+/* When the 'added' class is applied, change the color to red */
+.wishlist-btn.added svg {
+    fill: red;
+}

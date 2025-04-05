@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Mega Store</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <img src="logo.jpg" alt="Mega Store Logo" class="logo">
+            <h1>Mega Store</h1>
+        </div>
+    </header>
+
+    <div class="contact-container">
+        <div class="contact-info">
+            <h2>Get in touch!</h2>
+            <div class="contact-details">
+                <p><strong>Let's Talk</strong></p>
+                <p><i class="fa fa-phone-alt"></i> Hotline: <strong>12345</strong></p>
+                <p><i class="fa fa-clock"></i> Hotline Working Hours: <br> Every day from 9:00 AM to 7:00 PM</p>
+                <p><i class="fa fa-envelope"></i> Email: <a href="mailto:hello@megastore.com">hello@megastore.com</a></p>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" placeholder="Enter your first name" required>
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" placeholder="Enter your last name" required>
+                </div>
+                <div class="form-group">
+                    <label for="mobile">Mobile Number</label>
+                    <div class="mobile-input">
+                        <input type="text" id="country-code" value="+20" disabled>
+                        <input type="text" id="mobile" placeholder="1xxxxxxxxx" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Message" required></textarea>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+            <p id="successMessage" class="success-message"></p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Mega Store. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
